@@ -4,6 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeri</title>
+    <style>
+        body {
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 50px auto;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        td[colspan="4"] {
+            background-color: aqua;
+        }
+
+        td[bgcolor="aqua"] {
+            background-color: #b2ebf2 !important;
+        }
+
+        td[width="15%"] {
+            background-color: #d0f0f8;
+            font-weight: bold;
+            color: #004d40;
+        }
+
+        img {
+            margin: 5px;
+            border: 5px solid #004d40;
+        }
+    </style>
 </head>
 <body>
     <table border="1" cellspacing="3" bgcolor="sky blue" height="500" width="1000" align="center">
@@ -12,13 +51,12 @@
         </tr>
 
         <tr>
-            <td width="15%"  height="10">Menu</td>
-            <td rowspan="5" align="center" bgcolor="aqua">
-                <img src="pictures/Gosling.jpg" alt="Ryan Gosling" width="18%" height="170px" border="5">
-                <img src="pictures/Gosling3.jpg" alt="Ryan Gosling" width="40%" height="170px" border="5">
-                <br>
-                <img src="pictures/Pattinson2.jpg" alt="Robert Pattinson" width="40%" height="170px" border="5">
-                <img src="pictures/Pattinson.jpg" alt="Robert Pattinson" width="18%" height="170px" border="5">
+            <td width="15%" height="10">Menu</td>
+            <td rowspan="5" align="center" valign="top" bgcolor="aqua">
+                <img src="pictures/Gosling.jpg" alt="Ryan Gosling" width="18%" height="170px">
+                <img src="pictures/Gosling3.jpg" alt="Ryan Gosling" width="40%" height="170px"><br>
+                <img src="pictures/Pattinson2.jpg" alt="Robert Pattinson" width="40%" height="170px">
+                <img src="pictures/Pattinson.jpg" alt="Robert Pattinson" width="18%" height="170px">
             </td>
         </tr>
 
@@ -27,10 +65,10 @@
         </tr>
 
         <tr>
-            <td bgcolor="aqua" width="15%" valign="top">Galeri</td>
+            <td width="15%" bgcolor="aqua" valign="top">Galeri</td>
         </tr>
 
-        <tr>    
+        <tr>
             <td width="15%" height="10">Hobi</td>
         </tr>
 
