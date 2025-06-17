@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<style>
+    .fullscreen-container {
+        width: 100vw;
+        background-color: #2873ff;
+        text-align: center;
+        padding: 30px;
+    }
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #eef0f1;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+    }
+
+    .content {
+        width: 48vw;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .form{
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #a7a7a7;
+        border-radius: 5px;
+    }
+
+
+</style>
+
+<body>
+    <div class="fullscreen-container">
+        <h1>Institut Widya Pratama</h1>
+        <p style="color: #eef0f1; font-family: Arial, Helvetica, sans-serif;">Fakultas Teknologi Informasi (FTI) dan Fakultas Ekonomika dan Bisnis (FRB)</p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; font-size: 15px;">
+    <div class="content">
+    <h2 style="font-family: Arial, Helvetica, sans-serif;">Formulir Kontak</h2>
+    <form action="">
+        <label for="nama" style="font-family: Arial, Helvetica, sans-serif;">Nama:</label><br>
+        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama" class="form"><br><br>
+        <label for="email" style="font-family: Arial, Helvetica, sans-serif;">Email:</label><br>
+        <input type="text" name="email" id="email" placeholder="Masukkan Email" class="form"><br><br>
+        <input type="submit" name="kirim" id="kirim" value="Kirim" style="background-color: #0b941d; padding: 10px 20px; border-radius: 8px; border: none; color: #ffffff;">
+    </form>
+    </div>
+
+    <div class="content" style="font-family: Arial, Helvetica, sans-serif; ">
+        <h2>Info</h2>
+        <div style="border: 1px #a7a7a7 solid; border-radius: 5px; padding: 3px 15px; background-color: #00b7ff4b;">
+            <p>Menerima mahasiswa baru untuk tahun Akademik 2025-2026</p>
+        </div><br>
+        <div style="border: 1px #a7a7a7 solid; border-radius: 5px; padding: 3px 15px;">
+            <h3>Tentang Kami</h3>
+            <p>Institut Widya Pratama terdiri dari 2 Fakultas, yaitu:</p>
+            <ul>
+                <li>Fakultas Teknologi Informasi (FTI)</li>
+                <li>Fakultas Ekonomika dan Bisnis (FRB)</li>
+            </ul>
+            <a href="https://iwima.ac.id/" style="display: inline-block; padding: 8px 5px; margin-bottom: 8px; border: 1px #0084ff solid; border-radius: 8px; color: #0084ff;">Pelajari Lagi</a>
+        </div>
+
+        
+    </div>
+    </div>
+
+    <footer style="background-color: #1d1d1d; color: #eef0f1; text-align: center; padding: 10px; width: 100vw; font-family: Arial, Helvetica, sans-serif; margin-top: 30px;">
+        &copy; 2025 iwima.ac.id
+    </footer>
+</body>
+</html>
